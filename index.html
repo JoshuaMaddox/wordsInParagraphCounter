@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Most Frequent Word Counter</title>
+	<meta name="Play Hangman Online" content="Welcome to the best hangman game online. If you want to play hangman online without the noise and tired flash, then COME ON!">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="custom.css">
+</head>
+<body>
+	<header id="header">
+		<nav class="navbar navbar-default navbar-fixed-top">
+  			<div class="container">
+  				<div class="navbar-header">
+			    	<a class="navbar-brand" href="#">We Got Wordz</a>
+    			</div>
+  			</div>
+		</nav>
+	</header>
+	<section class="main-body">
+		<div class='container-fluid'>
+			<div class="row rowTop">
+				<div class="col-md-12">
+					<div class="textField text-center">
+						<h2 class="text-center">Enter Text To Get Most Repeated Words List</h2>
+						<form class='textForm'>
+	    					<textarea class="form-control" rows="18" name="getText"></textarea>
+	    				</form>
+	    				<button type="submit" class="btn btn-lg text-center">SUBMIT</button>
+					</div><!--textField-->
+				</div><!--COL-->
+			</div><!--ROW TOP-->
+		</div><!--CONTAINER-->
+		<div class="container-fluid">
+			<div class="row rowBottom">
+				<div class="resultsContainer">
+					<table class="table text-center">
+					</table>
+				</div><!--resultsContainer-->
+			</div><!--ROW BOTTOM-->
+		</div><!--CONTAINER-->
+	</section>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
